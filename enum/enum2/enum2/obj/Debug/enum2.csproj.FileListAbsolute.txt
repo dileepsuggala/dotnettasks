@@ -1,0 +1,6 @@
+D:\DS\c#\enum\enum2\enum2\bin\Debug\enum2.exe.config
+D:\DS\c#\enum\enum2\enum2\bin\Debug\enum2.exe
+D:\DS\c#\enum\enum2\enum2\bin\Debug\enum2.pdb
+D:\DS\c#\enum\enum2\enum2\obj\Debug\enum2.csproj.CoreCompileInputs.cache
+D:\DS\c#\enum\enum2\enum2\obj\Debug\enum2.exe
+D:\DS\c#\enum\enum2\enum2\obj\Debug\enum2.pdb

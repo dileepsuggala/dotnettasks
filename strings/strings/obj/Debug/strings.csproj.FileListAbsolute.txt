@@ -1,0 +1,7 @@
+D:\DS\c#\strings\strings\bin\Debug\strings.exe.config
+D:\DS\c#\strings\strings\bin\Debug\strings.exe
+D:\DS\c#\strings\strings\bin\Debug\strings.pdb
+D:\DS\c#\strings\strings\obj\Debug\strings.csprojResolveAssemblyReference.cache
+D:\DS\c#\strings\strings\obj\Debug\strings.csproj.CoreCompileInputs.cache
+D:\DS\c#\strings\strings\obj\Debug\strings.exe
+D:\DS\c#\strings\strings\obj\Debug\strings.pdb

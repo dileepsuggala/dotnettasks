@@ -1,0 +1,7 @@
+D:\DS\c#\task30\task30\bin\Debug\task30.exe.config
+D:\DS\c#\task30\task30\bin\Debug\task30.exe
+D:\DS\c#\task30\task30\bin\Debug\task30.pdb
+D:\DS\c#\task30\task30\obj\Debug\task30.csproj.CoreCompileInputs.cache
+D:\DS\c#\task30\task30\obj\Debug\task30.exe
+D:\DS\c#\task30\task30\obj\Debug\task30.pdb
+D:\DS\c#\task30\task30\obj\Debug\task30.csprojResolveAssemblyReference.cache

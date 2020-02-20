@@ -1,0 +1,7 @@
+D:\DS\c#\circleare\circleare\bin\Debug\circleare.exe.config
+D:\DS\c#\circleare\circleare\bin\Debug\circleare.exe
+D:\DS\c#\circleare\circleare\bin\Debug\circleare.pdb
+D:\DS\c#\circleare\circleare\obj\Debug\circleare.csprojResolveAssemblyReference.cache
+D:\DS\c#\circleare\circleare\obj\Debug\circleare.csproj.CoreCompileInputs.cache
+D:\DS\c#\circleare\circleare\obj\Debug\circleare.exe
+D:\DS\c#\circleare\circleare\obj\Debug\circleare.pdb

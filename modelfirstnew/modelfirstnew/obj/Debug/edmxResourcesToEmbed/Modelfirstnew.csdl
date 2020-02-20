@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Modelfirstnew" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelfirstnewContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cats" EntityType="Modelfirstnew.cat" />
+    <EntitySet Name="pros" EntityType="Modelfirstnew.pro" />
+    <AssociationSet Name="fk_p" Association="Modelfirstnew.fk_p">
+      <End Role="cat" EntitySet="cats" />
+      <End Role="pro" EntitySet="pros" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="cat">
+    <Key>
+      <PropertyRef Name="cid" />
+    </Key>
+    <Property Name="cid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ctitle" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="pros" Relationship="Modelfirstnew.fk_p" FromRole="cat" ToRole="pro" />
+  </EntityType>
+  <EntityType Name="pro">
+    <Key>
+      <PropertyRef Name="pid" />
+    </Key>
+    <Property Name="pid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ptype" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="price" Type="Double" Nullable="false" />
+    <Property Name="cid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cat" Relationship="Modelfirstnew.fk_p" FromRole="pro" ToRole="cat" />
+  </EntityType>
+  <Association Name="fk_p">
+    <End Type="Modelfirstnew.cat" Role="cat" Multiplicity="1" />
+    <End Type="Modelfirstnew.pro" Role="pro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cat">
+        <PropertyRef Name="cid" />
+      </Principal>
+      <Dependent Role="pro">
+        <PropertyRef Name="cid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

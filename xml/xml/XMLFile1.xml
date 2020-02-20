@@ -1,0 +1,18 @@
+﻿<?xml version = "1.0" encoding ="utf-8"?>
+<books>
+  <book>
+    <Id>093</Id>
+    <Title>The Alchemist</Title>
+    <Price>120</Price>
+  </book>
+  <book>
+    <Id>845</Id>
+    <Title>you can see real Rage</Title>
+    <Price>150</Price>
+  </book>
+  <book>
+    <Id>386</Id>
+    <Title>Ego is your Weapon</Title>
+    <Price>160</Price>
+  </book>
+</books>

@@ -1,0 +1,11 @@
+D:\DS\c#\dbfirstnew\dbfirstnew\bin\Debug\dbfirstnew.exe.config
+D:\DS\c#\dbfirstnew\dbfirstnew\bin\Debug\dbfirstnew.exe
+D:\DS\c#\dbfirstnew\dbfirstnew\bin\Debug\dbfirstnew.pdb
+D:\DS\c#\dbfirstnew\dbfirstnew\bin\Debug\EntityFramework.dll
+D:\DS\c#\dbfirstnew\dbfirstnew\bin\Debug\EntityFramework.SqlServer.dll
+D:\DS\c#\dbfirstnew\dbfirstnew\bin\Debug\EntityFramework.xml
+D:\DS\c#\dbfirstnew\dbfirstnew\bin\Debug\EntityFramework.SqlServer.xml
+D:\DS\c#\dbfirstnew\dbfirstnew\obj\Debug\dbfirstnew.csprojResolveAssemblyReference.cache
+D:\DS\c#\dbfirstnew\dbfirstnew\obj\Debug\dbfirstnew.csproj.CoreCompileInputs.cache
+D:\DS\c#\dbfirstnew\dbfirstnew\obj\Debug\dbfirstnew.exe
+D:\DS\c#\dbfirstnew\dbfirstnew\obj\Debug\dbfirstnew.pdb

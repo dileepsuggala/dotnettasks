@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="schemamodel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="schemamodelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="students" EntityType="schemamodel.student" />
+    <EntitySet Name="examcenters" EntityType="schemamodel.examcenter" />
+    <EntitySet Name="invigilators" EntityType="schemamodel.invigilator" />
+    <EntitySet Name="schools" EntityType="schemamodel.school" />
+    <EntitySet Name="courses" EntityType="schemamodel.course" />
+    <EntitySet Name="rooms" EntityType="schemamodel.room" />
+    <EntitySet Name="arrangements" EntityType="schemamodel.arrangement" />
+    <AssociationSet Name="studentarrangement" Association="schemamodel.studentarrangement">
+      <End Role="student" EntitySet="students" />
+      <End Role="arrangement" EntitySet="arrangements" />
+    </AssociationSet>
+    <AssociationSet Name="coursearrangement" Association="schemamodel.coursearrangement">
+      <End Role="course" EntitySet="courses" />
+      <End Role="arrangement" EntitySet="arrangements" />
+    </AssociationSet>
+    <AssociationSet Name="invigilatorarrangement" Association="schemamodel.invigilatorarrangement">
+      <End Role="invigilator" EntitySet="invigilators" />
+      <End Role="arrangement" EntitySet="arrangements" />
+    </AssociationSet>
+    <AssociationSet Name="examcenterarrangement" Association="schemamodel.examcenterarrangement">
+      <End Role="examcenter" EntitySet="examcenters" />
+      <End Role="arrangement" EntitySet="arrangements" />
+    </AssociationSet>
+    <AssociationSet Name="roomarrangement" Association="schemamodel.roomarrangement">
+      <End Role="room" EntitySet="rooms" />
+      <End Role="arrangement" EntitySet="arrangements" />
+    </AssociationSet>
+    <AssociationSet Name="schoolarrangement" Association="schemamodel.schoolarrangement">
+      <End Role="school" EntitySet="schools" />
+      <End Role="arrangement" EntitySet="arrangements" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="student">
+    <Key>
+      <PropertyRef Name="sid" />
+    </Key>
+    <Property Name="sid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sname" Type="String" Nullable="false" />
+    <Property Name="age" Type="Int32" Nullable="false" />
+    <Property Name="standard" Type="Int32" Nullable="false" />
+    <Property Name="subject" Type="String" Nullable="false" />
+    <NavigationProperty Name="arrangements" Relationship="schemamodel.studentarrangement" FromRole="student" ToRole="arrangement" />
+  </EntityType>
+  <EntityType Name="examcenter">
+    <Key>
+      <PropertyRef Name="centerid" />
+    </Key>
+    <Property Name="centerid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="centername" Type="String" Nullable="false" />
+    <Property Name="location" Type="String" Nullable="false" />
+    <NavigationProperty Name="arrangements" Relationship="schemamodel.examcenterarrangement" FromRole="examcenter" ToRole="arrangement" />
+  </EntityType>
+  <EntityType Name="invigilator">
+    <Key>
+      <PropertyRef Name="invigilatorid" />
+    </Key>
+    <Property Name="invigilatorid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="iname" Type="String" Nullable="false" />
+    <Property Name="workingschool" Type="String" Nullable="false" />
+    <NavigationProperty Name="arrangements" Relationship="schemamodel.invigilatorarrangement" FromRole="invigilator" ToRole="arrangement" />
+  </EntityType>
+  <EntityType Name="school">
+    <Key>
+      <PropertyRef Name="schoolid" />
+    </Key>
+    <Property Name="schoolid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="schoolname" Type="String" Nullable="false" />
+    <Property Name="area" Type="String" Nullable="false" />
+    <NavigationProperty Name="arrangements" Relationship="schemamodel.schoolarrangement" FromRole="school" ToRole="arrangement" />
+  </EntityType>
+  <EntityType Name="course">
+    <Key>
+      <PropertyRef Name="courseid" />
+    </Key>
+    <Property Name="courseid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="coursename" Type="String" Nullable="false" />
+    <NavigationProperty Name="arrangements" Relationship="schemamodel.coursearrangement" FromRole="course" ToRole="arrangement" />
+  </EntityType>
+  <EntityType Name="room">
+    <Key>
+      <PropertyRef Name="roomid" />
+    </Key>
+    <Property Name="roomid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="capacity" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="arrangement">
+    <Key>
+      <PropertyRef Name="day" />
+    </Key>
+    <Property Name="day" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <NavigationProperty Name="student" Relationship="schemamodel.studentarrangement" FromRole="arrangement" ToRole="student" />
+    <Property Name="student_sid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="course" Relationship="schemamodel.coursearrangement" FromRole="arrangement" ToRole="course" />
+    <Property Name="course_courseid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="invigilator" Relationship="schemamodel.invigilatorarrangement" FromRole="arrangement" ToRole="invigilator" />
+    <Property Name="invigilator_invigilatorid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="examcenter" Relationship="schemamodel.examcenterarrangement" FromRole="arrangement" ToRole="examcenter" />
+    <Property Name="examcenter_centerid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="room" Relationship="schemamodel.roomarrangement" FromRole="arrangement" ToRole="room" />
+    <Property Name="room_roomid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="school" Relationship="schemamodel.schoolarrangement" FromRole="arrangement" ToRole="school" />
+    <Property Name="school_schoolid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="studentarrangement">
+    <End Type="schemamodel.student" Role="student" Multiplicity="1" />
+    <End Type="schemamodel.arrangement" Role="arrangement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="student">
+        <PropertyRef Name="sid" />
+      </Principal>
+      <Dependent Role="arrangement">
+        <PropertyRef Name="student_sid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="coursearrangement">
+    <End Type="schemamodel.course" Role="course" Multiplicity="1" />
+    <End Type="schemamodel.arrangement" Role="arrangement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="course">
+        <PropertyRef Name="courseid" />
+      </Principal>
+      <Dependent Role="arrangement">
+        <PropertyRef Name="course_courseid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="invigilatorarrangement">
+    <End Type="schemamodel.invigilator" Role="invigilator" Multiplicity="1" />
+    <End Type="schemamodel.arrangement" Role="arrangement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="invigilator">
+        <PropertyRef Name="invigilatorid" />
+      </Principal>
+      <Dependent Role="arrangement">
+        <PropertyRef Name="invigilator_invigilatorid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="examcenterarrangement">
+    <End Type="schemamodel.examcenter" Role="examcenter" Multiplicity="1" />
+    <End Type="schemamodel.arrangement" Role="arrangement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="examcenter">
+        <PropertyRef Name="centerid" />
+      </Principal>
+      <Dependent Role="arrangement">
+        <PropertyRef Name="examcenter_centerid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="roomarrangement">
+    <End Type="schemamodel.room" Role="room" Multiplicity="1" />
+    <End Type="schemamodel.arrangement" Role="arrangement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="room">
+        <PropertyRef Name="roomid" />
+      </Principal>
+      <Dependent Role="arrangement">
+        <PropertyRef Name="room_roomid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="schoolarrangement">
+    <End Type="schemamodel.school" Role="school" Multiplicity="1" />
+    <End Type="schemamodel.arrangement" Role="arrangement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="school">
+        <PropertyRef Name="schoolid" />
+      </Principal>
+      <Dependent Role="arrangement">
+        <PropertyRef Name="school_schoolid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

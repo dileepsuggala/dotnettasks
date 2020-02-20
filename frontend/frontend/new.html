@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>E-ticketing</title>
+ 
+    <script type="text/javascript">
+            function validate() {
+                var x = document.forms.myform.textname.value;
+                if (x = " ") {
+                    alert("must enter name");
+                }
+                var y = document.forms.myform.email.value;
+                if (y = " ")
+                {
+                    alert("must enter email");
+                }
+            }
+    </script>
+<style type="text/css">
+    body {
+        background-color:darkgray;
+        
+    }
+    h1.heading {
+        font-family: 'Edwardian Script ITC'; text-align : center;
+         font-size:80px;
+    }
+   h2.heading1{
+       font-family:'Arabic Typesetting';text-align :center;
+       font-size:50px;
+   }   
+</style>
+</head>
+<body>
+    <h1 class="heading">Ticketmaster</h1>
+    <h2 class=" heading1">SignUp</h2>
+  <center>  
+        <form name="myform" method="get" action="login.html" onsubmit="return validate()" >
+          <table>  <tr><td><b>Name</b></td><td><input type="text" name="textname"></td></tr>
+            <tr><td><b>Dob</b></td><td><input type="date" name="textdate"></td></tr>
+            <tr><td><b>Email</b></td><td><input type ="text" name="email"></td></tr>
+            <tr>
+                <td><b>Gender</b></td>
+                <td>
+                    <input type="radio" name="gender" value="male" checked>male<br />
+                    <input type="radio" name="gender" value="female" >female
+                </td>
+         </tr>
+            <tr><td><b>mobile</b></td><td><input type="text" name="mobile"></td></tr>
+            <tr><td><b>password</b></td><td><input type="password" name="password"></td></tr>
+
+            <tr><td><input type=submit value="submit"></td><td><input type=reset value="reset"></td></tr>
+  </table> </form> </center>
+    
+</body>
+</html>

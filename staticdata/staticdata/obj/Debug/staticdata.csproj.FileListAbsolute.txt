@@ -1,0 +1,6 @@
+D:\DS\c#\staticdata\staticdata\obj\Debug\staticdata.csproj.CoreCompileInputs.cache
+D:\DS\c#\staticdata\staticdata\bin\Debug\staticdata.exe.config
+D:\DS\c#\staticdata\staticdata\bin\Debug\staticdata.exe
+D:\DS\c#\staticdata\staticdata\bin\Debug\staticdata.pdb
+D:\DS\c#\staticdata\staticdata\obj\Debug\staticdata.exe
+D:\DS\c#\staticdata\staticdata\obj\Debug\staticdata.pdb

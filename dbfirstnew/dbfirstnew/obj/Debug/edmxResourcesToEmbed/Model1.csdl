@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dileepModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="department">
+    <Key>
+      <PropertyRef Name="Did" />
+    </Key>
+    <Property Name="Did" Type="String" MaxLength="5" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Dname" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="emps" Relationship="Self.FK__emp__Did__1367E606" FromRole="department" ToRole="emp" />
+  </EntityType>
+  <EntityType Name="emp">
+    <Key>
+      <PropertyRef Name="Eid" />
+    </Key>
+    <Property Name="Eid" Type="String" MaxLength="5" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Ename" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Designation" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Did" Type="String" MaxLength="5" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="department" Relationship="Self.FK__emp__Did__1367E606" FromRole="emp" ToRole="department" />
+  </EntityType>
+  <Association Name="FK__emp__Did__1367E606">
+    <End Role="department" Type="Self.department" Multiplicity="0..1" />
+    <End Role="emp" Type="Self.emp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="department">
+        <PropertyRef Name="Did" />
+      </Principal>
+      <Dependent Role="emp">
+        <PropertyRef Name="Did" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dileepEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="departments" EntityType="Self.department" />
+    <EntitySet Name="emps" EntityType="Self.emp" />
+    <AssociationSet Name="FK__emp__Did__1367E606" Association="Self.FK__emp__Did__1367E606">
+      <End Role="department" EntitySet="departments" />
+      <End Role="emp" EntitySet="emps" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,11 @@
+D:\DS\c#\schematask\schematask\bin\Debug\schematask.exe.config
+D:\DS\c#\schematask\schematask\bin\Debug\schematask.exe
+D:\DS\c#\schematask\schematask\bin\Debug\schematask.pdb
+D:\DS\c#\schematask\schematask\bin\Debug\EntityFramework.dll
+D:\DS\c#\schematask\schematask\bin\Debug\EntityFramework.SqlServer.dll
+D:\DS\c#\schematask\schematask\bin\Debug\EntityFramework.xml
+D:\DS\c#\schematask\schematask\bin\Debug\EntityFramework.SqlServer.xml
+D:\DS\c#\schematask\schematask\obj\Debug\schematask.csprojResolveAssemblyReference.cache
+D:\DS\c#\schematask\schematask\obj\Debug\schematask.csproj.CoreCompileInputs.cache
+D:\DS\c#\schematask\schematask\obj\Debug\schematask.exe
+D:\DS\c#\schematask\schematask\obj\Debug\schematask.pdb

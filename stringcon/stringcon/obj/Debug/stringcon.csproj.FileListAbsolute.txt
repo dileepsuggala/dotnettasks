@@ -1,0 +1,7 @@
+D:\DS\c#\stringcon\stringcon\obj\Debug\stringcon.csprojResolveAssemblyReference.cache
+D:\DS\c#\stringcon\stringcon\obj\Debug\stringcon.csproj.CoreCompileInputs.cache
+D:\DS\c#\stringcon\stringcon\bin\Debug\stringcon.exe.config
+D:\DS\c#\stringcon\stringcon\bin\Debug\stringcon.exe
+D:\DS\c#\stringcon\stringcon\bin\Debug\stringcon.pdb
+D:\DS\c#\stringcon\stringcon\obj\Debug\stringcon.exe
+D:\DS\c#\stringcon\stringcon\obj\Debug\stringcon.pdb

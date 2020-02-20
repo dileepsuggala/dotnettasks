@@ -1,0 +1,7 @@
+D:\DS\c#\exceptio\exceptio\obj\Debug\exceptio.csprojResolveAssemblyReference.cache
+D:\DS\c#\exceptio\exceptio\obj\Debug\exceptio.csproj.CoreCompileInputs.cache
+D:\DS\c#\exceptio\exceptio\bin\Debug\exceptio.exe.config
+D:\DS\c#\exceptio\exceptio\bin\Debug\exceptio.exe
+D:\DS\c#\exceptio\exceptio\bin\Debug\exceptio.pdb
+D:\DS\c#\exceptio\exceptio\obj\Debug\exceptio.exe
+D:\DS\c#\exceptio\exceptio\obj\Debug\exceptio.pdb

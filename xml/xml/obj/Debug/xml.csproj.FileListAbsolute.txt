@@ -1,0 +1,7 @@
+D:\DS\c#\xml\xml\bin\Debug\xml.exe.config
+D:\DS\c#\xml\xml\bin\Debug\xml.exe
+D:\DS\c#\xml\xml\bin\Debug\xml.pdb
+D:\DS\c#\xml\xml\obj\Debug\xml.csprojResolveAssemblyReference.cache
+D:\DS\c#\xml\xml\obj\Debug\xml.csproj.CoreCompileInputs.cache
+D:\DS\c#\xml\xml\obj\Debug\xml.exe
+D:\DS\c#\xml\xml\obj\Debug\xml.pdb

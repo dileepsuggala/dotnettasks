@@ -1,0 +1,7 @@
+D:\DS\c#\adonetdemo\adonetdemo\bin\Debug\adonetdemo.exe.config
+D:\DS\c#\adonetdemo\adonetdemo\bin\Debug\adonetdemo.exe
+D:\DS\c#\adonetdemo\adonetdemo\bin\Debug\adonetdemo.pdb
+D:\DS\c#\adonetdemo\adonetdemo\obj\Debug\adonetdemo.csprojResolveAssemblyReference.cache
+D:\DS\c#\adonetdemo\adonetdemo\obj\Debug\adonetdemo.csproj.CoreCompileInputs.cache
+D:\DS\c#\adonetdemo\adonetdemo\obj\Debug\adonetdemo.exe
+D:\DS\c#\adonetdemo\adonetdemo\obj\Debug\adonetdemo.pdb

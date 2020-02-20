@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelfirstentityStoreContainer" CdmEntityContainer="ModelfirstentityContainer">
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="IsTypeOf(Modelfirstentity.product)">
+        <MappingFragment StoreEntitySet="products">
+          <ScalarProperty Name="Pid" ColumnName="Pid" />
+          <ScalarProperty Name="Ptype" ColumnName="Ptype" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="category_cid" ColumnName="category_cid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="IsTypeOf(Modelfirstentity.category)">
+        <MappingFragment StoreEntitySet="categories">
+          <ScalarProperty Name="cid" ColumnName="cid" />
+          <ScalarProperty Name="ctitle" ColumnName="ctitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

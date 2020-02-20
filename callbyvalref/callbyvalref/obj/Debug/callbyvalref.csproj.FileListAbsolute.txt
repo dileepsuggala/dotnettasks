@@ -1,0 +1,7 @@
+D:\DS\c#\callbyvalref\callbyvalref\bin\Debug\callbyvalref.exe.config
+D:\DS\c#\callbyvalref\callbyvalref\bin\Debug\callbyvalref.exe
+D:\DS\c#\callbyvalref\callbyvalref\bin\Debug\callbyvalref.pdb
+D:\DS\c#\callbyvalref\callbyvalref\obj\Debug\callbyvalref.csprojResolveAssemblyReference.cache
+D:\DS\c#\callbyvalref\callbyvalref\obj\Debug\callbyvalref.csproj.CoreCompileInputs.cache
+D:\DS\c#\callbyvalref\callbyvalref\obj\Debug\callbyvalref.exe
+D:\DS\c#\callbyvalref\callbyvalref\obj\Debug\callbyvalref.pdb

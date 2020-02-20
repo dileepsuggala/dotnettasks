@@ -1,0 +1,9 @@
+D:\DS\c#\classlib\classlib\bin\Debug\classlib.exe.config
+D:\DS\c#\classlib\classlib\bin\Debug\classlib.exe
+D:\DS\c#\classlib\classlib\bin\Debug\classlib.pdb
+D:\DS\c#\classlib\classlib\bin\Debug\ClassLibrary1.dll
+D:\DS\c#\classlib\classlib\bin\Debug\ClassLibrary1.pdb
+D:\DS\c#\classlib\classlib\obj\Debug\classlib.csprojResolveAssemblyReference.cache
+D:\DS\c#\classlib\classlib\obj\Debug\classlib.csproj.CoreCompileInputs.cache
+D:\DS\c#\classlib\classlib\obj\Debug\classlib.exe
+D:\DS\c#\classlib\classlib\obj\Debug\classlib.pdb

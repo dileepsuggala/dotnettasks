@@ -1,0 +1,7 @@
+D:\DS\c#\newoop\newoop\bin\Debug\newoop.exe.config
+D:\DS\c#\newoop\newoop\bin\Debug\newoop.exe
+D:\DS\c#\newoop\newoop\bin\Debug\newoop.pdb
+D:\DS\c#\newoop\newoop\obj\Debug\newoop.csprojResolveAssemblyReference.cache
+D:\DS\c#\newoop\newoop\obj\Debug\newoop.csproj.CoreCompileInputs.cache
+D:\DS\c#\newoop\newoop\obj\Debug\newoop.exe
+D:\DS\c#\newoop\newoop\obj\Debug\newoop.pdb

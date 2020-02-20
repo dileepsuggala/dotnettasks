@@ -1,0 +1,7 @@
+D:\DS\c#\sqldemoado\sqldemoado\bin\Debug\sqldemoado.exe.config
+D:\DS\c#\sqldemoado\sqldemoado\bin\Debug\sqldemoado.exe
+D:\DS\c#\sqldemoado\sqldemoado\bin\Debug\sqldemoado.pdb
+D:\DS\c#\sqldemoado\sqldemoado\obj\Debug\sqldemoado.csprojResolveAssemblyReference.cache
+D:\DS\c#\sqldemoado\sqldemoado\obj\Debug\sqldemoado.csproj.CoreCompileInputs.cache
+D:\DS\c#\sqldemoado\sqldemoado\obj\Debug\sqldemoado.exe
+D:\DS\c#\sqldemoado\sqldemoado\obj\Debug\sqldemoado.pdb

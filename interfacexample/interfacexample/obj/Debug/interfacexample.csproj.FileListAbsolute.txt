@@ -1,0 +1,7 @@
+D:\DS\c#\interfacexample\interfacexample\bin\Debug\interfacexample.exe.config
+D:\DS\c#\interfacexample\interfacexample\bin\Debug\interfacexample.exe
+D:\DS\c#\interfacexample\interfacexample\bin\Debug\interfacexample.pdb
+D:\DS\c#\interfacexample\interfacexample\obj\Debug\interfacexample.csproj.CoreCompileInputs.cache
+D:\DS\c#\interfacexample\interfacexample\obj\Debug\interfacexample.exe
+D:\DS\c#\interfacexample\interfacexample\obj\Debug\interfacexample.pdb
+D:\DS\c#\interfacexample\interfacexample\obj\Debug\interfacexample.csprojResolveAssemblyReference.cache

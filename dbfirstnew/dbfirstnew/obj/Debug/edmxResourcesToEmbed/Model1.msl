@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dileepModelStoreContainer" CdmEntityContainer="dileepEntities">
+    <EntitySetMapping Name="departments">
+      <EntityTypeMapping TypeName="dileepModel.department">
+        <MappingFragment StoreEntitySet="department">
+          <ScalarProperty Name="Did" ColumnName="Did" />
+          <ScalarProperty Name="Dname" ColumnName="Dname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="emps">
+      <EntityTypeMapping TypeName="dileepModel.emp">
+        <MappingFragment StoreEntitySet="emp">
+          <ScalarProperty Name="Eid" ColumnName="Eid" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Did" ColumnName="Did" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

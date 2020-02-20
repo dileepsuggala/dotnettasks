@@ -1,0 +1,7 @@
+D:\DS\c#\query\query\bin\Debug\query.exe.config
+D:\DS\c#\query\query\bin\Debug\query.exe
+D:\DS\c#\query\query\bin\Debug\query.pdb
+D:\DS\c#\query\query\obj\Debug\query.csprojResolveAssemblyReference.cache
+D:\DS\c#\query\query\obj\Debug\query.csproj.CoreCompileInputs.cache
+D:\DS\c#\query\query\obj\Debug\query.exe
+D:\DS\c#\query\query\obj\Debug\query.pdb

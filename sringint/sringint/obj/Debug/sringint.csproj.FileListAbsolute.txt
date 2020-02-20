@@ -1,0 +1,7 @@
+D:\DS\c#\sringint\sringint\obj\Debug\sringint.csprojResolveAssemblyReference.cache
+D:\DS\c#\sringint\sringint\obj\Debug\sringint.csproj.CoreCompileInputs.cache
+D:\DS\c#\sringint\sringint\bin\Debug\sringint.exe.config
+D:\DS\c#\sringint\sringint\bin\Debug\sringint.exe
+D:\DS\c#\sringint\sringint\bin\Debug\sringint.pdb
+D:\DS\c#\sringint\sringint\obj\Debug\sringint.exe
+D:\DS\c#\sringint\sringint\obj\Debug\sringint.pdb

@@ -1,0 +1,7 @@
+D:\DS\c#\advance\advance\bin\Debug\advance.exe.config
+D:\DS\c#\advance\advance\bin\Debug\advance.exe
+D:\DS\c#\advance\advance\bin\Debug\advance.pdb
+D:\DS\c#\advance\advance\obj\Debug\advance.csprojResolveAssemblyReference.cache
+D:\DS\c#\advance\advance\obj\Debug\advance.csproj.CoreCompileInputs.cache
+D:\DS\c#\advance\advance\obj\Debug\advance.exe
+D:\DS\c#\advance\advance\obj\Debug\advance.pdb

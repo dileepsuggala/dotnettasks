@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Modelfirstentity.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelfirstentityStoreContainer">
+    <EntitySet Name="products" EntityType="Modelfirstentity.Store.products" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="categories" EntityType="Modelfirstentity.Store.categories" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="categoryproduct" Association="Modelfirstentity.Store.categoryproduct">
+      <End Role="category" EntitySet="categories" />
+      <End Role="product" EntitySet="products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="products">
+    <Key>
+      <PropertyRef Name="Pid" />
+    </Key>
+    <Property Name="Pid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ptype" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Price" Type="float" Nullable="false" />
+    <Property Name="category_cid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="categories">
+    <Key>
+      <PropertyRef Name="cid" />
+    </Key>
+    <Property Name="cid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ctitle" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="categoryproduct">
+    <End Role="category" Type="Modelfirstentity.Store.categories" Multiplicity="1" />
+    <End Role="product" Type="Modelfirstentity.Store.products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="cid" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="category_cid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

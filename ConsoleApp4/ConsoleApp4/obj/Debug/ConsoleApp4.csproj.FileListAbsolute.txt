@@ -1,0 +1,2 @@
+D:\DS\c#\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csprojResolveAssemblyReference.cache
+D:\DS\c#\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache

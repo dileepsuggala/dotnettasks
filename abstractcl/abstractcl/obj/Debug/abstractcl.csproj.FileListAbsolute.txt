@@ -1,0 +1,7 @@
+D:\DS\c#\abstractcl\abstractcl\obj\Debug\abstractcl.csprojResolveAssemblyReference.cache
+D:\DS\c#\abstractcl\abstractcl\obj\Debug\abstractcl.csproj.CoreCompileInputs.cache
+D:\DS\c#\abstractcl\abstractcl\bin\Debug\abstractcl.exe.config
+D:\DS\c#\abstractcl\abstractcl\bin\Debug\abstractcl.exe
+D:\DS\c#\abstractcl\abstractcl\bin\Debug\abstractcl.pdb
+D:\DS\c#\abstractcl\abstractcl\obj\Debug\abstractcl.exe
+D:\DS\c#\abstractcl\abstractcl\obj\Debug\abstractcl.pdb

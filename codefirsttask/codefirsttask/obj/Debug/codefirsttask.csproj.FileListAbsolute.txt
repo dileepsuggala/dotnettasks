@@ -1,0 +1,14 @@
+D:\DS\c#\codefirsttask\codefirsttask\bin\Debug\codefirsttask.exe.config
+D:\DS\c#\codefirsttask\codefirsttask\bin\Debug\codefirsttask.exe
+D:\DS\c#\codefirsttask\codefirsttask\bin\Debug\codefirsttask.pdb
+D:\DS\c#\codefirsttask\codefirsttask\bin\Debug\EntityFramework.dll
+D:\DS\c#\codefirsttask\codefirsttask\bin\Debug\EntityFramework.SqlServer.dll
+D:\DS\c#\codefirsttask\codefirsttask\bin\Debug\EntityFramework.xml
+D:\DS\c#\codefirsttask\codefirsttask\bin\Debug\EntityFramework.SqlServer.xml
+D:\DS\c#\codefirsttask\codefirsttask\obj\Debug\codefirsttask.csprojResolveAssemblyReference.cache
+D:\DS\c#\codefirsttask\codefirsttask\obj\Debug\codefirsttask.csproj.CoreCompileInputs.cache
+D:\DS\c#\codefirsttask\codefirsttask\obj\Debug\codefirsttask.exe
+D:\DS\c#\codefirsttask\codefirsttask\obj\Debug\codefirsttask.pdb
+D:\DS\c#\codefirsttask\codefirsttask\obj\Debug\codefirsttask.Migrations.createproduct.resources
+D:\DS\c#\codefirsttask\codefirsttask\obj\Debug\codefirsttask.csproj.GenerateResource.Cache
+D:\DS\c#\codefirsttask\codefirsttask\obj\Debug\codefirsttask.Migrations.createproduct1.resources

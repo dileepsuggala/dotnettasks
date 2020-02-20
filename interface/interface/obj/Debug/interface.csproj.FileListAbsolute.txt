@@ -1,0 +1,2 @@
+D:\DS\c#\interface\interface\obj\Debug\interface.csprojResolveAssemblyReference.cache
+D:\DS\c#\interface\interface\obj\Debug\interface.csproj.CoreCompileInputs.cache

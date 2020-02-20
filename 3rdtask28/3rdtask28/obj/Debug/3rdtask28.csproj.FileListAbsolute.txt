@@ -1,0 +1,7 @@
+D:\DS\c#\3rdtask28\3rdtask28\bin\Debug\3rdtask28.exe.config
+D:\DS\c#\3rdtask28\3rdtask28\bin\Debug\3rdtask28.exe
+D:\DS\c#\3rdtask28\3rdtask28\bin\Debug\3rdtask28.pdb
+D:\DS\c#\3rdtask28\3rdtask28\obj\Debug\3rdtask28.csprojResolveAssemblyReference.cache
+D:\DS\c#\3rdtask28\3rdtask28\obj\Debug\3rdtask28.csproj.CoreCompileInputs.cache
+D:\DS\c#\3rdtask28\3rdtask28\obj\Debug\3rdtask28.exe
+D:\DS\c#\3rdtask28\3rdtask28\obj\Debug\3rdtask28.pdb

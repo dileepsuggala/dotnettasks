@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="schemamodelStoreContainer" CdmEntityContainer="schemamodelContainer">
+    <EntitySetMapping Name="students">
+      <EntityTypeMapping TypeName="IsTypeOf(schemamodel.student)">
+        <MappingFragment StoreEntitySet="students">
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="sname" ColumnName="sname" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="standard" ColumnName="standard" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="examcenters">
+      <EntityTypeMapping TypeName="IsTypeOf(schemamodel.examcenter)">
+        <MappingFragment StoreEntitySet="examcenters">
+          <ScalarProperty Name="centerid" ColumnName="centerid" />
+          <ScalarProperty Name="centername" ColumnName="centername" />
+          <ScalarProperty Name="location" ColumnName="location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="invigilators">
+      <EntityTypeMapping TypeName="IsTypeOf(schemamodel.invigilator)">
+        <MappingFragment StoreEntitySet="invigilators">
+          <ScalarProperty Name="invigilatorid" ColumnName="invigilatorid" />
+          <ScalarProperty Name="iname" ColumnName="iname" />
+          <ScalarProperty Name="workingschool" ColumnName="workingschool" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="schools">
+      <EntityTypeMapping TypeName="IsTypeOf(schemamodel.school)">
+        <MappingFragment StoreEntitySet="schools">
+          <ScalarProperty Name="schoolid" ColumnName="schoolid" />
+          <ScalarProperty Name="schoolname" ColumnName="schoolname" />
+          <ScalarProperty Name="area" ColumnName="area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="courses">
+      <EntityTypeMapping TypeName="IsTypeOf(schemamodel.course)">
+        <MappingFragment StoreEntitySet="courses">
+          <ScalarProperty Name="courseid" ColumnName="courseid" />
+          <ScalarProperty Name="coursename" ColumnName="coursename" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rooms">
+      <EntityTypeMapping TypeName="IsTypeOf(schemamodel.room)">
+        <MappingFragment StoreEntitySet="rooms">
+          <ScalarProperty Name="roomid" ColumnName="roomid" />
+          <ScalarProperty Name="capacity" ColumnName="capacity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="arrangements">
+      <EntityTypeMapping TypeName="IsTypeOf(schemamodel.arrangement)">
+        <MappingFragment StoreEntitySet="arrangements">
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="student_sid" ColumnName="student_sid" />
+          <ScalarProperty Name="course_courseid" ColumnName="course_courseid" />
+          <ScalarProperty Name="invigilator_invigilatorid" ColumnName="invigilator_invigilatorid" />
+          <ScalarProperty Name="examcenter_centerid" ColumnName="examcenter_centerid" />
+          <ScalarProperty Name="room_roomid" ColumnName="room_roomid" />
+          <ScalarProperty Name="school_schoolid" ColumnName="school_schoolid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

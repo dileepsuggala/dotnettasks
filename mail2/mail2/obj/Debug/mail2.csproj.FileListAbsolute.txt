@@ -1,0 +1,6 @@
+D:\DS\c#\mail2\mail2\bin\Debug\mail2.exe.config
+D:\DS\c#\mail2\mail2\bin\Debug\mail2.exe
+D:\DS\c#\mail2\mail2\bin\Debug\mail2.pdb
+D:\DS\c#\mail2\mail2\obj\Debug\mail2.csproj.CoreCompileInputs.cache
+D:\DS\c#\mail2\mail2\obj\Debug\mail2.exe
+D:\DS\c#\mail2\mail2\obj\Debug\mail2.pdb

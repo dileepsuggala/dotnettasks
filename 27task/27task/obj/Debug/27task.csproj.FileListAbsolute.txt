@@ -1,0 +1,7 @@
+D:\DS\c#\27task\27task\obj\Debug\27task.csproj.CoreCompileInputs.cache
+D:\DS\c#\27task\27task\bin\Debug\27task.exe.config
+D:\DS\c#\27task\27task\bin\Debug\27task.exe
+D:\DS\c#\27task\27task\bin\Debug\27task.pdb
+D:\DS\c#\27task\27task\obj\Debug\27task.exe
+D:\DS\c#\27task\27task\obj\Debug\27task.pdb
+D:\DS\c#\27task\27task\obj\Debug\27task.csprojResolveAssemblyReference.cache

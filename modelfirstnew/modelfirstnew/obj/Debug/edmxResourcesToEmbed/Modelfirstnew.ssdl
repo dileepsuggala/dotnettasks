@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Modelfirstnew.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cats">
+    <Key>
+      <PropertyRef Name="cid" />
+    </Key>
+    <Property Name="cid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ctitle" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pros">
+    <Key>
+      <PropertyRef Name="pid" />
+    </Key>
+    <Property Name="pid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ptype" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="price" Type="float" Nullable="false" />
+    <Property Name="cid" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_p">
+    <End Role="cats" Type="Self.cats" Multiplicity="1" />
+    <End Role="pros" Type="Self.pros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cats">
+        <PropertyRef Name="cid" />
+      </Principal>
+      <Dependent Role="pros">
+        <PropertyRef Name="cid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelfirstnewStoreContainer">
+    <EntitySet Name="cats" EntityType="Self.cats" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pros" EntityType="Self.pros" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_p" Association="Self.fk_p">
+      <End Role="cats" EntitySet="cats" />
+      <End Role="pros" EntitySet="pros" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,6 @@
+D:\DS\c#\airborn\airborn\bin\Debug\airborn.exe.config
+D:\DS\c#\airborn\airborn\bin\Debug\airborn.exe
+D:\DS\c#\airborn\airborn\bin\Debug\airborn.pdb
+D:\DS\c#\airborn\airborn\obj\Debug\airborn.csproj.CoreCompileInputs.cache
+D:\DS\c#\airborn\airborn\obj\Debug\airborn.exe
+D:\DS\c#\airborn\airborn\obj\Debug\airborn.pdb

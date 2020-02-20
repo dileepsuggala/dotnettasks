@@ -1,0 +1,7 @@
+D:\DS\c#\2ndtask28\2ndtask28\bin\Debug\2ndtask28.exe.config
+D:\DS\c#\2ndtask28\2ndtask28\bin\Debug\2ndtask28.exe
+D:\DS\c#\2ndtask28\2ndtask28\bin\Debug\2ndtask28.pdb
+D:\DS\c#\2ndtask28\2ndtask28\obj\Debug\2ndtask28.csprojResolveAssemblyReference.cache
+D:\DS\c#\2ndtask28\2ndtask28\obj\Debug\2ndtask28.csproj.CoreCompileInputs.cache
+D:\DS\c#\2ndtask28\2ndtask28\obj\Debug\2ndtask28.exe
+D:\DS\c#\2ndtask28\2ndtask28\obj\Debug\2ndtask28.pdb

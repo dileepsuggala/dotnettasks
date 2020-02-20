@@ -1,0 +1,6 @@
+D:\DS\c#\controlstructures\controlstructures\bin\Debug\controlstructures.exe.config
+D:\DS\c#\controlstructures\controlstructures\bin\Debug\controlstructures.exe
+D:\DS\c#\controlstructures\controlstructures\bin\Debug\controlstructures.pdb
+D:\DS\c#\controlstructures\controlstructures\obj\Debug\controlstructures.csproj.CoreCompileInputs.cache
+D:\DS\c#\controlstructures\controlstructures\obj\Debug\controlstructures.exe
+D:\DS\c#\controlstructures\controlstructures\obj\Debug\controlstructures.pdb

@@ -1,0 +1,11 @@
+D:\DS\c#\modelfirstconsole\modelfirstconsole\bin\Debug\modelfirstconsole.exe.config
+D:\DS\c#\modelfirstconsole\modelfirstconsole\bin\Debug\modelfirstconsole.exe
+D:\DS\c#\modelfirstconsole\modelfirstconsole\bin\Debug\modelfirstconsole.pdb
+D:\DS\c#\modelfirstconsole\modelfirstconsole\bin\Debug\EntityFramework.dll
+D:\DS\c#\modelfirstconsole\modelfirstconsole\bin\Debug\EntityFramework.SqlServer.dll
+D:\DS\c#\modelfirstconsole\modelfirstconsole\bin\Debug\EntityFramework.xml
+D:\DS\c#\modelfirstconsole\modelfirstconsole\bin\Debug\EntityFramework.SqlServer.xml
+D:\DS\c#\modelfirstconsole\modelfirstconsole\obj\Debug\modelfirstconsole.csprojResolveAssemblyReference.cache
+D:\DS\c#\modelfirstconsole\modelfirstconsole\obj\Debug\modelfirstconsole.csproj.CoreCompileInputs.cache
+D:\DS\c#\modelfirstconsole\modelfirstconsole\obj\Debug\modelfirstconsole.exe
+D:\DS\c#\modelfirstconsole\modelfirstconsole\obj\Debug\modelfirstconsole.pdb

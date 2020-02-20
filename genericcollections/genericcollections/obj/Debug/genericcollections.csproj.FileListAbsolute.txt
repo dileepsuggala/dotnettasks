@@ -1,0 +1,7 @@
+D:\DS\c#\genericcollections\genericcollections\bin\Debug\genericcollections.exe.config
+D:\DS\c#\genericcollections\genericcollections\bin\Debug\genericcollections.exe
+D:\DS\c#\genericcollections\genericcollections\bin\Debug\genericcollections.pdb
+D:\DS\c#\genericcollections\genericcollections\obj\Debug\genericcollections.csprojResolveAssemblyReference.cache
+D:\DS\c#\genericcollections\genericcollections\obj\Debug\genericcollections.csproj.CoreCompileInputs.cache
+D:\DS\c#\genericcollections\genericcollections\obj\Debug\genericcollections.exe
+D:\DS\c#\genericcollections\genericcollections\obj\Debug\genericcollections.pdb

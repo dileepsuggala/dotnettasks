@@ -1,0 +1,13 @@
+D:\DS\c#\taskcodefirst\taskcodefirst\obj\Debug\taskcodefirst.csprojResolveAssemblyReference.cache
+D:\DS\c#\taskcodefirst\taskcodefirst\obj\Debug\taskcodefirst.csproj.CoreCompileInputs.cache
+D:\DS\c#\taskcodefirst\taskcodefirst\bin\Debug\taskcodefirst.exe.config
+D:\DS\c#\taskcodefirst\taskcodefirst\bin\Debug\taskcodefirst.exe
+D:\DS\c#\taskcodefirst\taskcodefirst\bin\Debug\taskcodefirst.pdb
+D:\DS\c#\taskcodefirst\taskcodefirst\bin\Debug\EntityFramework.dll
+D:\DS\c#\taskcodefirst\taskcodefirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\DS\c#\taskcodefirst\taskcodefirst\bin\Debug\EntityFramework.xml
+D:\DS\c#\taskcodefirst\taskcodefirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\DS\c#\taskcodefirst\taskcodefirst\obj\Debug\taskcodefirst.exe
+D:\DS\c#\taskcodefirst\taskcodefirst\obj\Debug\taskcodefirst.pdb
+D:\DS\c#\taskcodefirst\taskcodefirst\obj\Debug\taskcodefirst.Migrations.customer.resources
+D:\DS\c#\taskcodefirst\taskcodefirst\obj\Debug\taskcodefirst.csproj.GenerateResource.Cache

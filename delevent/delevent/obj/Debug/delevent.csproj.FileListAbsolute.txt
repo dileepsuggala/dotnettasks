@@ -1,0 +1,7 @@
+D:\DS\c#\delevent\delevent\bin\Debug\delevent.exe.config
+D:\DS\c#\delevent\delevent\bin\Debug\delevent.exe
+D:\DS\c#\delevent\delevent\bin\Debug\delevent.pdb
+D:\DS\c#\delevent\delevent\obj\Debug\delevent.csprojResolveAssemblyReference.cache
+D:\DS\c#\delevent\delevent\obj\Debug\delevent.csproj.CoreCompileInputs.cache
+D:\DS\c#\delevent\delevent\obj\Debug\delevent.exe
+D:\DS\c#\delevent\delevent\obj\Debug\delevent.pdb

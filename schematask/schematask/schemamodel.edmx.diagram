@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6a12f0afa1194dc1a75a96cd57db5dc4" Name="Diagram1" >
+        <EntityTypeShape EntityType="schemamodel.student" Width="1.5" PointX="7.5" PointY="0.5" />
+        <EntityTypeShape EntityType="schemamodel.examcenter" Width="1.5" PointX="5.5" PointY="2.75" />
+        <EntityTypeShape EntityType="schemamodel.invigilator" Width="1.5" PointX="5.25" PointY="0.5" />
+        <EntityTypeShape EntityType="schemamodel.school" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="schemamodel.course" Width="1.5" PointX="7.625" PointY="2.875" />
+        <EntityTypeShape EntityType="schemamodel.room" Width="1.5" PointX="0.625" PointY="2.625" />
+        <EntityTypeShape EntityType="schemamodel.arrangement" Width="1.5" PointX="2.875" PointY="0.5" />
+        <AssociationConnector Association="schemamodel.studentarrangement" />
+        <AssociationConnector Association="schemamodel.coursearrangement" />
+        <AssociationConnector Association="schemamodel.invigilatorarrangement" />
+        <AssociationConnector Association="schemamodel.examcenterarrangement" />
+        <AssociationConnector Association="schemamodel.roomarrangement" />
+        <AssociationConnector Association="schemamodel.schoolarrangement" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

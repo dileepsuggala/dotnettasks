@@ -1,0 +1,7 @@
+D:\DS\c#\aggregateoverride\aggregateoverride\obj\Debug\aggregateoverride.csprojResolveAssemblyReference.cache
+D:\DS\c#\aggregateoverride\aggregateoverride\obj\Debug\aggregateoverride.csproj.CoreCompileInputs.cache
+D:\DS\c#\aggregateoverride\aggregateoverride\bin\Debug\aggregateoverride.exe.config
+D:\DS\c#\aggregateoverride\aggregateoverride\bin\Debug\aggregateoverride.exe
+D:\DS\c#\aggregateoverride\aggregateoverride\bin\Debug\aggregateoverride.pdb
+D:\DS\c#\aggregateoverride\aggregateoverride\obj\Debug\aggregateoverride.exe
+D:\DS\c#\aggregateoverride\aggregateoverride\obj\Debug\aggregateoverride.pdb
