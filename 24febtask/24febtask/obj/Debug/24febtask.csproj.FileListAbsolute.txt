@@ -1,0 +1,7 @@
+D:\DS\c#\24febtask\24febtask\bin\Debug\24febtask.exe.config
+D:\DS\c#\24febtask\24febtask\bin\Debug\24febtask.exe
+D:\DS\c#\24febtask\24febtask\bin\Debug\24febtask.pdb
+D:\DS\c#\24febtask\24febtask\obj\Debug\24febtask.csprojResolveAssemblyReference.cache
+D:\DS\c#\24febtask\24febtask\obj\Debug\24febtask.csproj.CoreCompileInputs.cache
+D:\DS\c#\24febtask\24febtask\obj\Debug\24febtask.exe
+D:\DS\c#\24febtask\24febtask\obj\Debug\24febtask.pdb
